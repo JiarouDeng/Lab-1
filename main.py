@@ -3,13 +3,13 @@
 #Collaborator: Brooke Bires bmb6210@psu.edu
 #Collaborator: Jimmy Mattison jwm6532@psu.edu
 
-tem = input("Enter temperature: ")
+tem = float(input("Enter temperature: "))
 u = input("Enter unit in F/f or C/c: ")
 if u == "C" or u == "c":
-  f= float(float(tem)/5*9)+32;
+  f= tem/5*9+32;
   print (f"{tem}° in Celsius is equivalent to {f}° Fahrenheit.");
 elif u == "F" or u =="f":
-  c= float(float(tem)-32)/9*5;
+  c= (tem-32)/9*5
   print(f"{tem}° in Fahrenheit is equivalent to {c}° Celsius.");
 else:
  print(f" Invalid unit({u}).")
