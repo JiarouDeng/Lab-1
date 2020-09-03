@@ -1,3 +1,8 @@
+#Author: Jiarou Deng dpj5243@psu.edu
+#Collaborator: Qingyao Zhu qvz5130@psu.edu
+#Collaborator: Brooke Bires bmb6210@psu.edu
+#Collaborator: Jimmy Mattison jwm6532@psu.edu
+
 tem = input("Enter temperature:")
 u = input("Enter unit in F/f or C/c:")
 if u == "C" or u == "c":
