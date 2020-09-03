@@ -12,5 +12,5 @@ elif u == "F" or u =="f":
   c= (tem-32)/1.8
   print(f"{tem}° in Fahrenheit is equivalent to {c}° Celsius.");
 else:
-  print(f" Invalid unit({u}).")
+  print(f"Invalid unit({u}).")
  
