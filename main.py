@@ -4,7 +4,7 @@
 #Collaborator: Jimmy Mattison jwm6532@psu.edu
 
 tem = float(input("Enter temperature: "))
-u = input("Enter unit in F/f or C/c: ")
+u = input("Enter unit in F/f or C/c:")
 if u == "C" or u == "c":
   f= tem*1.8+32;
   print (f"{tem}° in Celsius is equivalent to {f}° Fahrenheit.");
